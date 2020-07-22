@@ -26,60 +26,31 @@ a{
     padding: 1em;
 }
 
-
-.dropdown {
-    float: left;
-    overflow: hidden;
-}
-
-.dropdown .menubtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-    padding-right: 1em;
-}
-
-.menucontent {
-    display: none;
-    position: absolute;
-    background-color: #f8f8f8;
-    box-shadow: 1em 1em 1em gray;
-    z-index: 1;
-}
-
-.menucontent a {
-    float: none;
+a:link, a:visited{
     color: black;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    display: block;
-    text-align: left;
 }
 
-.menucontentbtn:hover {
-    background-color: grey;
+a:hover{
+    color: red;
 }
 
-.dropdown:hover .menucontent {
-    display: block;
-}
 
-#footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
+/* Home Page Styling */
 
-#footercontent {
+#imgContainer{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    padding-bottom: 0.5em;
+    flex-direction: column;
+    width: 25%;
+}
+
+#ishikawaImg{
+    margin-top: 1.5em;
+    margin-left: 3em;
+    margin-bottom: 0.5em;
+}
+
+#ishikawaTitles{
+    margin-left: 3.5em;
 }
 
 /* for checkSheet page style start */
@@ -94,33 +65,4 @@ a{
 }
 li{
     padding: 0.5em;
-}
-.inputLabel{
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-}
-
-#checkSheetInput{
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    padding-left: 1em;
-    padding-bottom: 1em;
-    margin-right: 1em;
-}
-
-#checkSheetOverhead{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 1em;
-}
-
-#checkSheetDetails{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 1em;
-}
-
-#buildButton{
-    margin-left: 1em;
 }

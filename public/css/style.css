@@ -78,3 +78,9 @@ h1{
 }
 
 /* for individual pages */
+
+#checkSheetAbout {
+    display: flex;
+    float: left;
+    width: 25%;
+}

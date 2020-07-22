@@ -90,3 +90,32 @@ h1{
 li{
     padding: 0.5em;
 }
+.inputLabel{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#checkSheetInput{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    margin-right: 1em;
+}
+
+#checkSheetOverhead{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+}
+
+#checkSheetDetails{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+}
+
+#buildButton{
+    margin-left: 1em;
+}

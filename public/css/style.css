@@ -81,6 +81,12 @@ h1{
 
 #checkSheetAbout {
     display: flex;
+    flex-direction: column;
     float: left;
     width: 25%;
+    padding: 1em;
+    border: 1px solid black;
+}
+li{
+    padding: 0.5em;
 }

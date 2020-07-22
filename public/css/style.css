@@ -21,6 +21,11 @@ h1{
     z-index: 1;
 }
 
+a{
+    text-decoration: none;
+    padding: 1em;
+}
+
 
 .dropdown {
     float: left;

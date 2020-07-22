@@ -21,6 +21,11 @@ h1{
     z-index: 1;
 }
 
+a{
+    text-decoration: none;
+    padding: 1em;
+}
+
 
 .dropdown {
     float: left;
@@ -77,4 +82,45 @@ h1{
     padding-bottom: 0.5em;
 }
 
-/* for individual pages */
+/* for checkSheet page style start */
+
+#checkSheetAbout {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 25%;
+    padding: 1em;
+    border: 1px solid black;
+}
+li{
+    padding: 0.5em;
+}
+.inputLabel{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#checkSheetInput{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    margin-right: 1em;
+}
+
+#checkSheetOverhead{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+}
+
+#checkSheetDetails{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+}
+
+#buildButton{
+    margin-left: 1em;
+}

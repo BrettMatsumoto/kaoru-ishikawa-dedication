@@ -43,6 +43,10 @@ a:hover{
     width: 25%;
 }
 
+#ishikawaContent{
+    display: flex;
+}
+
 #ishikawaImg{
     margin-top: 1.5em;
     margin-left: 3em;
@@ -53,6 +57,30 @@ a:hover{
     margin-left: 3.5em;
 }
 
+#ishikawaAbout{
+    float: right;
+    width: 65%;
+    margin-left: 5em;
+}
+
+#ishikawaLists{
+    display: flex;
+}
+
+#ishikawaPrinciples{
+    width: 50%;
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+}
+
+#ishikawaTools{
+    border-top: 1px dotted black;
+    width: 50%;
+}
+
+li{
+    padding: 0.5em;
+}
 /* for checkSheet page style start */
 
 #checkSheetAbout {
@@ -62,7 +90,4 @@ a:hover{
     width: 25%;
     padding: 1em;
     border: 1px solid black;
-}
-li{
-    padding: 0.5em;
 }

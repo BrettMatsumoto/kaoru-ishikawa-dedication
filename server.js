@@ -15,14 +15,15 @@ app.engine('.hbs', exphbs({
 app.set('view engine', '.hbs');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+const indexRoute = require('./routes/index');
+const checkSheetRoute = require('./routes/checkSheet');
 
 require('dotenv').config({ path: './.env' });
 
 const PORT = process.env.EXPRESS_CONTAINER_PORT;
 
-app.get('/', (req, res) => {
-    res.send('Hello World')
-})
+app.use('/', indexRoute);
+app.use('/checkSheet', checkSheetRoute);
 
 app.listen(PORT, () => {
     console.log(`Express app is running on port ${PORT}.`);

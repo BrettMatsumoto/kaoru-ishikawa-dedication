@@ -13,11 +13,27 @@
     {{>header}}
     <h1>Check Sheet</h1>
     <div id="checkSheetAbout">
-        <h3>The check sheet is an organized way to quickly and easily collect the counts of defects, locations,
+        <h4>The check sheet is an organized way to quickly and easily collect the counts of defects, locations,
             products, occurances, or events. The form can be simple or formal and is adapted to the data need for a
-            given project</h2>
+            given project</h4>
+        <h4>Directions</h4>
+        <ol>
+            <li>Deterine the categories or defects or locations being tracked, and any further stratifying information
+                such as shift or month.</li>
+            <li>Create a table with categories in the first column and stratifying information across the top.</li>
+            <li>Distribute the forms to data collectors with clear instructions, and pick up the sheets to tabulate when
+                complete.</li>
+        </ol>
+    </div>
+    <div id="checkSheet">
+        <form action="">
+            <div class="leftLabels">
+                <input type="text" name="Category" id="category" placeholder="Category">
+            </div>
+        </form>
     </div>
     {{>footer}}
+    <script src="js/checkSheet.js"></script>
 </body>
 
 </html>

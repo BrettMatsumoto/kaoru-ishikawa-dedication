@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Sheet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c53df5b490.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    {{>header}}
+    <h1>Control Charts</h1>
+    <div id="checkSheetAbout">
+        <h4>A control chart is a graphical representation of data variation over time, which makes it possible to
+            observe the normal and non-normal behavior of a process. In the Control Phase, control charts help the team
+            monitor the process behavior for change through the mean, range, and standard deviation statistics.</h4>
+        <h4>How to Build a Control Chart</h4>
+        <ol>
+            <li>Create a horizontal scale representing time or run order.</li>
+            <li>Create a vertical axis representing the scale of measure for the characteristic.</li>
+            <li>Plot each observation as a dot, using its order and measurement.</li>
+            <li>Connect the dots by drawing a line between each point, in sequential order, to emphasize the change that
+                has occured.</li>
+        </ol>
+    </div>
+    <div id="checkSheet">
+        <img id="controlChartImg"
+            src="https://www.researchgate.net/profile/Inci_Saricicek2/publication/266501994/figure/fig1/AS:295571135975426@1447481058802/A-typical-control-chart.png"
+            alt="">
+    </div>
+    <script src="js/checkSheet.js"></script>
+</body>
+
+</html>

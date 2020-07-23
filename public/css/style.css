@@ -96,5 +96,15 @@ li{
     display: flex;
     justify-content: center;
     height: 35em;
-    padding-right: 5em;
+    margin-right: 5em;
+    border: 1px solid black;
+}
+
+#controlChartImg{
+    float: right;
+    display: flex;
+    justify-self: center;
+    height: 30em;
+    margin-right: 5em;
+    border: 1px solid black;
 }

@@ -4,12 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Check Sheet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c53df5b490.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     {{>header}}
-    <h1>Histogram</h1>
+    <h1>Histograms</h1>
+    <div id="checkSheetAbout">
+        <h4>A histogram is a bar chart representing the distribution of the data set. It is a quick and useful way to
+            evaluate for centered or skewed data.</h4>
+        <h4>How to Build a Histogram</h4>
+        <ol>
+            <li>Collect and tabulate data by the counts of occurrences in a given range; for example, 1,000 data points
+                measuring the time it takes an emergency room to respond to a code blue sitiuation may have very few
+                identical data points, but there may be 20-50 columns of data if it is grouped into 10-minute increments
+                (any data in the 10-minute window counts in the frequency of that column).</li>
+            <li>Plot the counts grouped by range on a bar chart, showing the target and specification limits or use a
+                statistical toll to automatically generate the histogram.</li>
+        </ol>
+    </div>
+    <div id="checkSheet">
+        <img id="checkSheetImg" src="http://cec.health.nsw.gov.au/__data/assets/image/0007/337453/histogram.png" alt="">
+    </div>
+    <script src="js/checkSheet.js"></script>
 </body>
 
 </html>

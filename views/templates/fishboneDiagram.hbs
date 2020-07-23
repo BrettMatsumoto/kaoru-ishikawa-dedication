@@ -4,12 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Check Sheet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c53df5b490.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     {{>header}}
-    <h1>Fishbone Diagram</h1>
+    <h1>Cause-and-Effect Diagram (Fishbone Diagram)</h1>
+    <div id="checkSheetAbout">
+        <h4>A Pareto chart is a toll to visualize the frequency of defects or occurrences. Pareto charts help prioritize
+            action by emphasizing higher counts in a bar chart format. It is a very good tool to analyze frequency data
+            colelcted with check sheets</h4>
+        <h4>How to Build a Pareto Chart</h4>
+        <ol>
+            <li>Collect count or frequency of occurrence data for a set of variables or categories.</li>
+            <li>Tabulate this data in descending order of requency or use a program like QI Macros or MiniTab&reg; to
+                automatically do this.</li>
+            <li>Create a bar chart of this descending order data or use a statistical analysis package as mentioned
+                above</li>
+            <li>Pareto charts can be "nested," e.g., a Pareto chart may be used to drill down further on the highest
+                impact variable.</li>
+        </ol>
+    </div>
+    <div id="checkSheet">
+        <img id="checkSheetImg" src="https://tulip.co/wp-content/uploads/Pareto-Chart-Defects-in-Shirts.png" alt="">
+    </div>
+    <script src="js/checkSheet.js"></script>
 </body>
 
 </html>

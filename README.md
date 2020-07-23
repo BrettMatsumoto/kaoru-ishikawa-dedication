@@ -1,8 +1,8 @@
 # Kaoru Ishikawa Dedication
 
-This dedication page was built as a way to practice using Express and Express-Handlebars to create a multi-page website with reusable header assets under a 24 hour working time constraint.
+This dedication page was built as a way to practice using Express and Express-Handlebars to create a multi-page website with reusable header assets.
 
-This project started on 7/21/2020 and was completed 7/22/2020.
+This project started on 7/15/2020 and was completed 7/22/2020.
 
 If I were to re-make this project with no time constraint:
 

@@ -14,4 +14,4 @@ If I were to re-make this project with no time constraint:
 
 Notes for improvement:
 
-1) I should have dedicated more time to whiteboarding and planning the project.
+1) I should have dedicated more time to whiteboarding and planning the project rather than jumping in code first.

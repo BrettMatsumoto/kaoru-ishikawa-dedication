@@ -88,6 +88,13 @@ li{
     flex-direction: column;
     float: left;
     width: 25%;
-    padding: 1em;
-    border: 1px solid black;
+    padding-left: 5em;
+}
+
+#checkSheetImg{
+    float: right;
+    display: flex;
+    justify-content: center;
+    height: 35em;
+    padding-right: 5em;
 }
